@@ -348,7 +348,7 @@ const NftCardV2 = ({
             <SecondaryButton
               text="stake"
               width="full"
-              href={status}
+              href={rewardsUrl}
             ></SecondaryButton>
           ) : null}
         </div>
@@ -528,7 +528,7 @@ const NftCardV2 = ({
               <SecondaryButton
                 text="stake"
                 width="full"
-                href={status}
+                href={rewardsUrl}
               ></SecondaryButton>
             ) : null}
           </div>
