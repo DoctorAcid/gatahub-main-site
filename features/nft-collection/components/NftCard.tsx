@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { SecondaryButton } from "../../common/components/Button";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ExternalLinkIcon from "@/features/common/components/ExternalLinkIcon";
 import PrimaryButton from "@/features/common/components/Buttons/PrimaryButton";
+import SecondaryButton from "@/features/common/components/Buttons/SecondaryButton";
 
 interface Props {
   image: string;
@@ -109,7 +109,7 @@ const NftCard = ({
                 details ? "justify-between" : "justify-start"
               } w-full gap-4`}
             >
-              <h4>{name}</h4>
+              <h4 className="line-clamp-2">{name}</h4>
               {details && (
                 <div
                   onClick={() => window.open(details, "_blank")}
@@ -150,12 +150,10 @@ const NftCard = ({
           <PrimaryButton text="Collect" href={href} width="full" />
           {rewardsUrl ? (
             <SecondaryButton
-              href={rewardsUrl}
+              text="stake"
               width="full"
-              disabled={!rewardsUrl}
-            >
-              Rewards
-            </SecondaryButton>
+              href={status}
+            ></SecondaryButton>
           ) : null}
         </div>
       </div>

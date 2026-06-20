@@ -51,30 +51,32 @@
 
 h1 {
   font-size: 48px;
-  font-family: var(--font-spacemono);
+  font-family: var(--font-clash-display);
   line-height: 48px;
-  letter-spacing: -0.05em;
-  text-transform: capitalize;
+  font-weight: 400;
+  /* letter-spacing: -0.05em; */
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 24px;
-  font-family: var(--font-spacemono);
+  font-family: var(--font-clash-display);
   line-height: 24px;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 20px;
-  font-family: var(--font-spacemono);
+  font-family: var(--font-clash-display);
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h4 {
   font-size: 14px;
-  font-family: var(--font-spacemono);
+  font-family: var(--font-clash-display);
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h5 {
@@ -95,8 +97,8 @@ p {
   font-size: 11px;
   font-family: var(--font-titillium);
   line-height: 16px;
-  font-weight: 400;
-  color: #a4a4a4;
+  font-weight: 600;
+  color: #acb2b8;
 }
 
 .primary_button {
@@ -175,8 +177,8 @@ p {
 
 @media (min-width: 1536px) {
   h1 {
-    font-size: 64px;
-    line-height: 72px;
+    font-size: 88px;
+    line-height: 80px;
   }
 
   h2 {
@@ -185,13 +187,13 @@ p {
   }
 
   h3 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
   h4 {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 20px;
   }
 
   h5 {

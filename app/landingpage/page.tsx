@@ -47,7 +47,7 @@ const LandingPage = () => {
   const fetchDelegation = async (
     addr: string,
     network: string,
-    tokens: number
+    tokens: number,
   ) => {
     if (addr) {
       const updateDelegation = await fetchValDelegation(network, addr);
@@ -65,11 +65,11 @@ const LandingPage = () => {
           const tokenDelegation = await fetchDelegation(
             val.addr,
             val.network,
-            val.tokens
+            val.tokens,
           );
 
           return tokenPrice * tokenDelegation * 2;
-        })
+        }),
       );
 
       const totalSum = results.reduce((acc, curr) => acc + curr, 0);
@@ -247,7 +247,7 @@ const LandingPage = () => {
             </div>
             <div className="z-[1] flex gap-2 flex-wrap items-center">
               <h2 className="text-[20px] xl:text-[24px] font-bold text-white">
-                301K
+                321K
               </h2>
               <h5 className="text-white/50">USD</h5>
             </div>
@@ -288,7 +288,7 @@ const LandingPage = () => {
                 }}
               />
             </div>
-            <h2 className=" text-[20px] xl:text-[24px] font-bold">40</h2>
+            <h2 className=" text-[20px] xl:text-[24px] font-bold">46</h2>
             <p>Reward Months</p>
           </div>
 

@@ -58,6 +58,7 @@ export type NFTCollection = {
   href: string;
   details: string;
   rewardsUrl?: string;
+  addr?: string;
 }
 
 export type Points = {

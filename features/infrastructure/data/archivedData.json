@@ -13,5 +13,10 @@
       "icon": "/images/validators/omni.png",
       "title": "Omniflix",
       "endpoints": ["https://omniflix-rpc.gatadao.com", "https://omniflix-api.gatadao.com", "https://omniflix-grpc.gatadao.com"]
+    },
+    {
+      "icon": "/images/validators/stars.png",
+      "title": "Stargaze",
+      "endpoints": ["https://stargaze-rpc.gatadao.com/", "https://stargaze-api.gatadao.com/", "https://stargaze-grpc.gatadao.com/"]
     }
 ]

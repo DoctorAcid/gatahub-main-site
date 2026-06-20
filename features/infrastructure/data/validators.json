@@ -261,9 +261,9 @@
     "status": "https://www.mintscan.io/stargaze/validators/starsvaloper1pn9m649n2ugeyw4a7lj4vdtm76f7ptlp0sqxhz",
     "stake": "https://wallet.keplr.app/chains/stargaze?modal=validator&chain=stargaze-1&validator_address=starsvaloper1pn9m649n2ugeyw4a7lj4vdtm76f7ptlp0sqxhz",
     "autoCompound": "",
-    "stat": "active",
+    "stat": "decommissioned",
     "addr": "starsvaloper1pn9m649n2ugeyw4a7lj4vdtm76f7ptlp0sqxhz",
-    "active": true
+    "active": false
   },
   {
     "icon": "/images/validators/sifchain.png",

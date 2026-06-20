@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Mono, Titillium_Web } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "../features/common/components/Nav";
 import Footer from "@/features/common/components/Footer";
@@ -18,6 +19,12 @@ const titillium = Titillium_Web({
   display: "swap",
 });
 
+const clashDisplay = localFont({
+  src: "../public/fonts/ClashDisplay-Variable.ttf",
+  variable: "--font-clash-display",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Gata Hub",
   description: "GATA Yield Hub",
@@ -31,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`relative flex flex-col items-center w-full bg-black text-white ${spacemono.variable} ${titillium.variable}`}
+        className={`relative flex flex-col items-center w-full bg-black text-white ${titillium.variable} ${clashDisplay.variable}`}
       >
         <Nav />
         <div className="mt-[50px] lg:mt-[58px] max-w-[1920px] w-full">

@@ -20,7 +20,7 @@ const PrimaryButton = ({ text, href, width, disabled }: PrimaryButtonProps) => {
       onMouseLeave={() => setHovered(false)}
       className={`w-${
         width || "fit"
-      } flex px-4 py-1 sm:px-6 sm:py-2 3xl:px-[32px] 3xl:py-[8px] justify-center items-center text-center rounded-[4px] bg-black hover:bg-dgray border-[1px] border-white/10 font-titillium font-semibold uppercase text-white text-[14px] transition-all duration-300 ease-in-out cursor-pointer sm:text-[14px] overflow-hidden`}
+      } flex px-4 py-1 sm:px-6 sm:py-2 3xl:px-[32px] 3xl:py-[8px] justify-center items-center text-center rounded-[4px] bg-purple hover:bg-dgray border-[1px] border-white/10 font-titillium font-semibold uppercase text-white text-[14px] transition-all duration-300 ease-in-out cursor-pointer sm:text-[14px] overflow-hidden`}
     >
       <div className="w-full h-full min-h-[22px] flex gap-1 justify-center">
         {letters?.map((letter, index) => (

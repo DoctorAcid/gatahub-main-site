@@ -1,13 +1,25 @@
 [
     {
+        "image": "/images/nfts/collections/gata_pixels.webp",
+        "name": "GATA Pixels",
+        "desc": "GATA Pixels are yield-generating NFTs built with redemption, recycling, and transparency at their core.  Earn while you hold. Exit without dependency. Re-enter through the same system. Made with love by cats at GATA HUB.",
+        "collection": "Yield Series",
+        "active": true,
+        "href": "https://stargaze.zone/m/cosmos1rusfnupu3wp0txmc8mw3jn88sx9f7vx4j9m3lcvh7dc3fkxvshpsprsx5h",
+        "details": "https://docs.gatahub.zone/g/gatahub/gata-nfts/gata-pixel",
+        "rewardsUrl": "",
+        "addr" : "cosmos1rusfnupu3wp0txmc8mw3jn88sx9f7vx4j9m3lcvh7dc3fkxvshpsprsx5h"
+    },
+    {
         "image": "/images/nfts/collections/PengOne.jpg",
         "name": "PengOne",
         "desc": "Forged in frost, chosen by yield. The PengOnes emerged where Stargaze meets AtomOne. A GATA-born species with purpose.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://www.stargaze.zone/m/stars1n7af8ev4x36qzum6gz2yw4vds5vkw8evtuvfvrghq0gjulrf9ncs9mutd6/tokens",
+        "href": "https://stargaze.zone/m/cosmos1dvx9q8ck866qmpqpqdy3guqt96579x9ukn6qxx6mtf4x5gxfzfqschuxlw",
         "details": "https://docs.gatahub.zone/g/gatahub/gata-nfts/pengones",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1dvx9q8ck866qmpqpqdy3guqt96579x9ukn6qxx6mtf4x5gxfzfqschuxlw"
     },
     {
         "image": "/images/nfts/collections/yieldWalkers.jpg",
@@ -15,9 +27,10 @@
         "desc": "Always alive, always earning. GATA’s legacy of real yield.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://www.stargaze.zone/m/stars137zr8gn03g2nvanz5hsflacl06vn6dmyx62fknvwmvdaj77qg8jqh0eppc/tokens",
+        "href": "https://stargaze.zone/m/cosmos1mzr08swy3m6fx8xgmmfd5cf3wvjgsef8pnv9saacly03s3w4n5jq7qq9st",
         "details": "",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1mzr08swy3m6fx8xgmmfd5cf3wvjgsef8pnv9saacly03s3w4n5jq7qq9st"
     },
     {
         "image": "/images/nfts/collections/yieldCrocs.png",
@@ -25,9 +38,10 @@
         "desc": "Your friendly neighborhood crocs provide you with monthly epoch rewards in $SOL and $yGATA. Earn passive income from various DeFi activities managed by GATA.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://omniflix.market/c/onftdenom096ab49e894d401c8996913f3ad0d795/collect-now",
+        "href": "https://stargaze.zone/m/cosmos1q5rhds0ufc8r4l6n3asjf90vpkq8vvmutrxsnl9sgx5rmqz83eds7ssfa5",
         "details": "https://docs.gatahub.zone/welcome-to-gitbook/gatahub/yield-crocs",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1q5rhds0ufc8r4l6n3asjf90vpkq8vvmutrxsnl9sgx5rmqz83eds7ssfa5"
     },
     {
         "image": "/images/nfts/collections/01.jpg",
@@ -35,9 +49,10 @@
         "desc": "Colonial Cats is the very first GATA series NFT collection of GATA DAO. Launched on the Stargaze launchpad on March 11, 2022.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://app.stargaze.zone/marketplace/stars1yw4xvtc43me9scqfr2jr2gzvcxd3a9y4eq7gaukreugw2yd2f8tssqyvcm",
+        "href": "https://stargaze.zone/m/cosmos1q2a8pl96nm3t4xnzpe5q96f3je7awssqh2js4er4wdv66e44kf4qd37k5w",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gata-dao-information/dao-ventures/collections/gata-series",
-        "rewardsUrl": ""
+        "rewardsUrl": "https://daodao.zone/dao/cosmos18a4u5n2yjn6vfhfzd769jfu8ttefhj6fmtacujy8n7325jmngmuq5ufmc6/home",
+        "addr" : "cosmos1q2a8pl96nm3t4xnzpe5q96f3je7awssqh2js4er4wdv66e44kf4qd37k5w"
     },
     {
         "image": "/images/nfts/collections/02.jpg",
@@ -45,9 +60,10 @@
         "desc": "Voyager Cats is the second GATA series NFT collection of GATA DAO. Launched on the Stargaze launchpad on June 3, 2022.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://app.stargaze.zone/marketplace/stars19tedq0x8csy6v35cqcjy8f76j2f0fsljjytuxcvl3x4sj82tmxnqgxuu85",
+        "href": "https://stargaze.zone/m/cosmos1rprz62z0vpa6ex0wcwmqkq6ls3cye9wea5lfshpg8fm2ztg28znsy4jzww",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gata-dao-information/dao-ventures/collections/gata-series",
-        "rewardsUrl": ""
+        "rewardsUrl": "https://daodao.zone/dao/cosmos177eqa8ym5efsm747r4h3jz42fatjfdqvmnxr95xwcpkm6x4rpzkqj2x0n8/home",
+        "addr" : "cosmos1rprz62z0vpa6ex0wcwmqkq6ls3cye9wea5lfshpg8fm2ztg28znsy4jzww"
     },
     {
         "image": "/images/nfts/collections/03.jpg",
@@ -55,9 +71,10 @@
         "desc": "Yield Gorilla is the first Yield collection of GATA DAO.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://app.teritori.com/collection/tori-tori1999u8suptza3rtxwk7lspve02m406xe7l622erg3np3aq05gawxsrh9g0p",
+        "href": "https://stargaze.zone/m/cosmos1a4uanyytpvx0cq043yljlf0phhy2h95t6wsraprhnryyaqzdjw2sl3z5rn",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gata-dao-information/dao-ventures/collections/non-gata-series",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1a4uanyytpvx0cq043yljlf0phhy2h95t6wsraprhnryyaqzdjw2sl3z5rn"
     },
     {
         "image": "/images/nfts/collections/09.jpg",
@@ -65,9 +82,10 @@
         "desc": "Let your kitties work for you: Yield Paws provide you with revenue from various DeFi activities, staking rewards & private sale ventures - all without lifting a single paw.",
         "collection": "Yield Series",
         "active": true,
-        "href": "https://www.stargaze.zone/l/yieldpaws",
+        "href": "https://stargaze.zone/m/cosmos1te4992utv2kyfguf6lad2szsunj29gqqsvjzqdsfh9g62yeuvclsvvtl8t",
         "details": "https://docs.gatahub.zone/welcome-to-gitbook/gatahub/yield-paws",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1te4992utv2kyfguf6lad2szsunj29gqqsvjzqdsfh9g62yeuvclsvvtl8t"
     },
     {
         "image": "/images/nfts/collections/gata3rdAnniversary.png",
@@ -77,7 +95,19 @@
         "active": true,
         "href": "https://omniflix.market/c/nonTransferable/onftdenom5841d7530dfd4dd0b61093389896aae8",
         "details": "https://docs.gatahub.zone/welcome-to-gitbook/gatahub/nft-souvenirs#id-9-gata-3rd-anniversary",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : ""
+    },
+    {
+        "image": "/images/nfts/collections/xmes_2025.gif",
+        "name": "GATA Xmas greetings 2025",
+        "desc": "A small Christmas gift from GATA HUB to the Cosmos community. This free open-edition NFT celebrates another year of building, learning, and growing together.",
+        "collection": "Souvenirs collection",
+        "active": true,
+        "href": "https://stargaze.zone/m/cosmos1h4chhyzhexau4fvkcfnjtcywngqx42ak9838d4sja3uzgvd5gh0q3kwh90",
+        "details": "https://docs.gatahub.zone/g/gatahub/gata-nfts/nft-souvenirs#id-10-gata-xmas-greetings-2025",
+        "rewardsUrl": "",
+        "addr" : "cosmos1h4chhyzhexau4fvkcfnjtcywngqx42ak9838d4sja3uzgvd5gh0q3kwh90"
     },
     {
         "image": "/images/nfts/collections/GATA-Xmas-2024.jpg",
@@ -85,9 +115,10 @@
         "desc": "As 2024 decides to take its leave, the time has come to celebrate! GATA HUB extends warm wishes to everyone who joined us on our rollercoaster journey through this wild year. Here's to you from the entire GATA HUB team - Merry Christmas, you wonderful catnip lovers!",
         "collection": "Souvenirs collection",
         "active": true,
-        "href": "https://www.stargaze.zone/m/stars13u6ugmja48etdpy5gaf6hnkmx8gw05fkcg0wr9ry65qc5nm39cpqc3tt3x/tokens",
+        "href": "https://stargaze.zone/m/cosmos1v5hwaqn2vjr06avqp6nj9hx3q7s0f7g2w5npyxxfctrzrwdu52sq8n5jrz",
         "details": "https://docs.gatahub.zone/welcome-to-gitbook/gatahub/nft-souvenirs#id-8-gata-xmas-greetings-2024",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1v5hwaqn2vjr06avqp6nj9hx3q7s0f7g2w5npyxxfctrzrwdu52sq8n5jrz"
     },
     {
         "image": "/images/nfts/collections/10.gif",
@@ -97,7 +128,8 @@
         "active": true,
         "href": "https://omniflix.market/c/onftdenom98a328b68f994118af813e69723f2cf6",
         "details": "https://docs.gatahub.zone/welcome-to-gitbook/gatahub/nft-souvenirs#id-2-gata-delegator-reward-2023",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : ""
     },
     {
         "image": "/images/nfts/collections/04.jpg",
@@ -107,7 +139,8 @@
         "active": true,
         "href": "https://omniflix.market/collection/onftdenoma6a057db64674de0b129e9b5c087d404",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gatahub/nft-souvenirs#id-1-gata-x-omniflix-4-20-launch-souvenir",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : ""
     },
     {
         "image": "/images/nfts/collections/06.gif",
@@ -115,9 +148,10 @@
         "desc": "Limited open edition mint by GATA DAO, visual art animated by Brasco. GG7 is your lucky charm & a psychedelic tribute from GATA to Stargaze. From genesis mint till now, we've all seen a lot in the past year - there's no better time than now to celebrate the common journey of Stargaze & GATA together. Made by GATA with love.",
         "collection": "Souvenirs collection",
         "active": true,
-        "href": "https://www.stargaze.zone/m/stars1xz3h6pvmvfygcpnyx95q7myk94vn9hf0mhyy78qy4vzp3w9qmdnqm03ue9/tokens",
+        "href": "https://stargaze.zone/m/cosmos1ws9ahax6qu7fgxag340c46fusz83pn4wzct0wv6jnyn5cl0skxdqkxawwk",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gatahub/nft-souvenirs#id-3-gata-gaze-7-gg7",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1ws9ahax6qu7fgxag340c46fusz83pn4wzct0wv6jnyn5cl0skxdqkxawwk"
     },
     {
         "image": "/images/nfts/collections/08.jpg",
@@ -125,9 +159,10 @@
         "desc": "First banner collection of GATA DAO, visual art by Brasco. Spice up your profile with some fresh catnip-filled banners based on your favorite parts of GATA: from Colonial Cats and Voyager Cats to Yield Gorillas and our various IBC validators. A total of 1k banners in 4 different categories with a variety of rarity classes are waiting for you. Made by GATA with love.",
         "collection": "Souvenirs collection",
         "active": true,
-        "href": "https://www.stargaze.zone/m/stars1udmfnrewelppflnl698j4m85q04rpm3h9vtzlu9286vxalfq6nxs5dzzkm/tokens",
+        "href": "https://stargaze.zone/m/cosmos1kqc79u3lx22uvndd5ctqfrka66u5057ttd279alnj9jvp9su5pfstrtuwg",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gatahub/nft-souvenirs#id-5-gata-horizons",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1kqc79u3lx22uvndd5ctqfrka66u5057ttd279alnj9jvp9su5pfstrtuwg"
     },
     {
         "image": "/images/nfts/collections/05.gif",
@@ -137,7 +172,8 @@
         "active": true,
         "href": "https://omniflix.market/collection/onftdenom20f3bdc8be264bd8a17c39bbb3c6a421",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gatahub/nft-souvenirs#id-2-gata-delegator-reward-2023",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : ""
     },
     {
         "image": "/images/nfts/collections/07.gif",
@@ -145,8 +181,9 @@
         "desc": "2023 is coming to an end, it's time to celebrate. GATA is sending these greetings to people who took part in our common journey through this eventful year & stood on board. The whole GATA team is wishing you a Merry Christmas!",
         "collection": "Souvenirs collection",
         "active": true,
-        "href": "https://www.stargaze.zone/m/stars1nssvsnfef3qpzy7a798c40mjevxky0l87admpezu4z4a36fye6yql244v8/tokens",
+        "href": "https://stargaze.zone/m/cosmos1upps99zlhhya4p6uwdxsx9lkw5nn8meyc7zxwv5nncpadja5tz7spfkx7c",
         "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gatahub/nft-souvenirs#id-4-gata-xmas-greetings-2023",
-        "rewardsUrl": ""
+        "rewardsUrl": "",
+        "addr" : "cosmos1upps99zlhhya4p6uwdxsx9lkw5nn8meyc7zxwv5nncpadja5tz7spfkx7c"
     }
 ]
