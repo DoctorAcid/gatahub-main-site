@@ -101,7 +101,7 @@ const HeroSection = () => {
       {/* TEXT : HEADING */}
       <div
         ref={headingWrapRef}
-        className="z-20 flex flex-col w-full px-4 md:px-8 lg:px-16 py-16 lg:py-20"
+        className="z-20 flex flex-col w-full px-4 md:px-8 lg:px-16 py-16 md:py-12 lg:py-12 2xl:py-20"
       >
         <h1 ref={heading1Ref} className="heading">
           Start earning
