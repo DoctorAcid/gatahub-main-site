@@ -1,8 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import PrimaryButton from "../common/components/Buttons/PrimaryButton";
 import Image from "next/image";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const StillDeciding = () => {
   const DECIDING_DATA = [
@@ -25,9 +29,42 @@ const StillDeciding = () => {
       href: "/nft-collection",
     },
   ];
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const backgroundRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const background = backgroundRef.current;
+
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        background,
+        { y: -50 },
+        {
+          y: 50,
+          duration: 1,
+          scrollTrigger: {
+            trigger: section,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+          },
+        },
+      );
+    });
+
+    return () => ctx.revert();
+  }, []);
   return (
-    <section className="relative flex flex-col items-center gap-12 w-full px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 overflow-hidden">
-      <div className="absolute bottom-0 w-full h-full min-w-[1000px] scale-110">
+    <section
+      ref={sectionRef}
+      className="relative flex flex-col items-center gap-12 w-full px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 overflow-hidden"
+    >
+      <div
+        ref={backgroundRef}
+        className="absolute bottom-0 w-full h-full min-w-[1000px]"
+      >
         <Image
           fill
           className="object-contain object-center rotate-180"

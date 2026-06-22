@@ -1,9 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import PrimaryButton from "@/features/common/components/Buttons/PrimaryButton";
 import Bubble from "../common/components/Bubble";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const StakeAssets = () => {
   const WHAT_YOU_EARN_DATA = [
@@ -45,9 +49,38 @@ const StakeAssets = () => {
     },
   ];
 
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const mainImageRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const mainImage = mainImageRef.current;
+
+    if (!section || !mainImage) return;
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        mainImage,
+        { yPercent: -10 },
+        {
+          yPercent: 10,
+          ease: "none",
+          scrollTrigger: {
+            trigger: section,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+          },
+        },
+      );
+    });
+
+    return () => ctx.revert();
+  }, []);
+
   return (
     <section
       id="stake-assets"
+      ref={sectionRef}
       className="relative flex gap-12 w-full px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20"
     >
       {/* STAKE ASSETS BACKGROUND IMAGE */}
@@ -63,8 +96,11 @@ const StakeAssets = () => {
           />
         </div>
 
-        <div className="w-full h-screen sticky top-0 flex justify-end py-12">
-          <div className="relative w-full max-w-[902px] aspect-[9/16]">
+        <div
+          ref={mainImageRef}
+          className="w-full h-full flex justify-end py-12"
+        >
+          <div className="relative w-full max-w-[900px] aspect-[9/16]">
             <Image
               fill
               className="object-contain object-right z-1"

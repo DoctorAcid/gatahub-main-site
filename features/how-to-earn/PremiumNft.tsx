@@ -1,12 +1,16 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import premiumNfts from "./data/premiumNfts.json";
 import NftCardV2 from "../nft-collection/components/NftCardV2";
 import Bubble from "../common/components/Bubble";
 import PrimaryButton from "../common/components/Buttons/PrimaryButton";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const PremiumNft = () => {
   const BENEFIT_DATA = [
@@ -15,8 +19,39 @@ const PremiumNft = () => {
     "Ecosystem perks",
     "Future reward campaigns",
   ];
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const backgroundRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const background = backgroundRef.current;
+
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        background,
+        { y: 0 },
+        {
+          y: 100,
+          duration: 1,
+          scrollTrigger: {
+            trigger: section,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+          },
+        },
+      );
+    });
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section className="relative flex flex-col gap-12 w-full px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
+    <section
+      ref={sectionRef}
+      className="relative flex flex-col gap-12 w-full px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20"
+    >
       <div className="z-10 flex flex-col gap-8 items-center w-full max-w-[1240px] mx-auto py-40">
         <div className="flex flex-col gap-4 items-center text-center">
           <p className="text-[14px] uppercase text-purple">Premium NFT Path</p>
@@ -54,7 +89,10 @@ const PremiumNft = () => {
       </div>
 
       <div className="absolute inset-0 z-0 flex items-center justify-center overflow-hidden">
-        <div className="absolute bottom-0 w-full h-full min-w-[1000px]">
+        <div
+          ref={backgroundRef}
+          className="absolute bottom-0 w-full h-full min-w-[1000px]"
+        >
           <Image
             fill
             className="object-contain object-top"
@@ -91,7 +129,7 @@ const PremiumNft = () => {
             repeatDelay: 1,
             ease: "backInOut",
           }}
-          className="absolute -top-10 left-[20%] aspect-square w-[80px] flex"
+          className="absolute top-10 left-[20%] aspect-square w-[80px] flex"
         >
           <svg
             width="94"

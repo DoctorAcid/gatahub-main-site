@@ -141,7 +141,6 @@ const NftCardV2 = ({
   const { data } = useCollectionData(addr);
   const detailsRef = useRef<HTMLDivElement>(null);
 
-  console.log("data is", data);
   useEffect(() => {
     gsap.set(detailsRef.current, {
       opacity: 0,

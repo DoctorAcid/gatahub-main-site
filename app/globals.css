@@ -109,7 +109,7 @@ p {
 .heading {
   font-family: var(--font-clash-display);
   font-size: clamp(4rem, 10vw, 10rem);
-  line-height: clamp(1.25, 2vw + 1rem, 10rem);
+  line-height: clamp(3rem, 10vw, 8rem);
 }
 
 @media (min-width: 640px) {

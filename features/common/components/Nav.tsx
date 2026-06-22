@@ -61,7 +61,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="z-30 fixed top-0 left-0 w-full flex justify-center">
+    <div className="z-[999] fixed top-0 left-0 w-full flex justify-center">
       <nav className="relative w-full flex justify-center items-center border-y-[1px] border-white border-opacity-10 bg-black/10 backdrop-blur-[16px] pl-[18px] pr-[18px] py-[8px]">
         <div className="flex w-full justify-between items-center max-w-[1880px]">
           {/* Logo */}
@@ -485,6 +485,16 @@ export default function Nav() {
               RollApp
             </Link>
           </div> */}
+
+          <Link
+            onClick={closeDropDown}
+            href={"/how-to-earn"}
+            className={`h-fit py-[8px] transition-all duration-300 ease-in-out uppercase font-semibold hover:text-white text-[16px] text-${
+              pathname === "/rollapp" ? "white" : "gray"
+            }`}
+          >
+            How to Earn
+          </Link>
 
           <div
             className={`group w-fit flex gap-2 items-center justify-center h-fit py-[8px] transition-all duration-300 ease-in-out font-semibold hover:text-white text-[16px] cursor-pointer text-${

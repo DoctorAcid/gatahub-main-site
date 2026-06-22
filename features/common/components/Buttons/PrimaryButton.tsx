@@ -33,7 +33,7 @@ const PrimaryButton = ({ text, href, width, disabled }: PrimaryButtonProps) => {
               initial={{ y: 10 }}
               animate={{ y: hovered ? "-200%" : "0%" }}
               transition={{
-                duration: 0.3,
+                duration: 0.2,
                 delay: index * 0.05,
                 ease: "easeOut",
               }}
@@ -47,11 +47,11 @@ const PrimaryButton = ({ text, href, width, disabled }: PrimaryButtonProps) => {
               initial={{ y: "100%" }}
               animate={{ y: hovered ? "0%" : "200%" }}
               transition={{
-                duration: 0.3,
+                duration: 0.2,
                 delay: index * 0.05,
                 ease: "easeOut",
               }}
-              className="absolute left-0 top-0 font-mono"
+              className="absolute left-0 top-0"
             >
               {letter}
             </motion.span>
