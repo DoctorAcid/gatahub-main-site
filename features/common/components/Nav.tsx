@@ -16,7 +16,10 @@ export default function Nav() {
   };
 
   useEffect(() => {
-    const lenis = new Lenis();
+    const lenis = new Lenis({
+      lerp: 0.1,
+      anchors: true,
+    });
 
     function raf(time: any) {
       lenis.raf(time);
@@ -109,6 +112,16 @@ export default function Nav() {
             >
               RollApp
             </Link> */}
+
+            <Link
+              onClick={closeDropDown}
+              href={"/how-to-earn"}
+              className={`h-fit py-[8px] transition-all duration-300 ease-in-out uppercase font-semibold hover:text-white text-[16px] text-${
+                pathname === "/rollapp" ? "white" : "gray"
+              }`}
+            >
+              How to Earn
+            </Link>
 
             <div
               className={`group flex gap-2 items-center justify-center h-fit py-[8px] transition-all duration-300 ease-in-out font-semibold hover:text-white text-[16px] cursor-pointer text-${

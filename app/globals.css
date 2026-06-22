@@ -62,21 +62,21 @@ h2 {
   font-size: 24px;
   font-family: var(--font-clash-display);
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 20px;
   font-family: var(--font-clash-display);
   line-height: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 14px;
   font-family: var(--font-clash-display);
   line-height: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h5 {
@@ -104,6 +104,12 @@ p {
 .primary_button {
   font-family: var(--font-titillium);
   font-weight: 600;
+}
+
+.heading {
+  font-family: var(--font-clash-display);
+  font-size: clamp(4rem, 10vw, 10rem);
+  line-height: clamp(1.25, 2vw + 1rem, 10rem);
 }
 
 @media (min-width: 640px) {

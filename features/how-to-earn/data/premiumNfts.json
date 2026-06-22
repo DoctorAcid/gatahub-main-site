@@ -1,0 +1,24 @@
+[
+    {
+        "image": "/images/nfts/collections/01.jpg",
+        "name": "Colonial Cats",
+        "desc": "Colonial Cats is the very first GATA series NFT collection of GATA DAO. Launched on the Stargaze launchpad on March 11, 2022.",
+        "collection": "Yield Series",
+        "active": true,
+        "href": "https://stargaze.zone/m/cosmos1q2a8pl96nm3t4xnzpe5q96f3je7awssqh2js4er4wdv66e44kf4qd37k5w",
+        "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gata-dao-information/dao-ventures/collections/gata-series",
+        "rewardsUrl": "https://daodao.zone/dao/cosmos18a4u5n2yjn6vfhfzd769jfu8ttefhj6fmtacujy8n7325jmngmuq5ufmc6/home",
+        "addr" : "cosmos1q2a8pl96nm3t4xnzpe5q96f3je7awssqh2js4er4wdv66e44kf4qd37k5w"
+    },
+    {
+        "image": "/images/nfts/collections/02.jpg",
+        "name": "Voyager Cats",
+        "desc": "Voyager Cats is the second GATA series NFT collection of GATA DAO. Launched on the Stargaze launchpad on June 3, 2022.",
+        "collection": "Yield Series",
+        "active": true,
+        "href": "https://stargaze.zone/m/cosmos1rprz62z0vpa6ex0wcwmqkq6ls3cye9wea5lfshpg8fm2ztg28znsy4jzww",
+        "details": "https://gatahub.gitbook.io/welcome-to-gitbook/gata-dao-information/dao-ventures/collections/gata-series",
+        "rewardsUrl": "https://daodao.zone/dao/cosmos177eqa8ym5efsm747r4h3jz42fatjfdqvmnxr95xwcpkm6x4rpzkqj2x0n8/home",
+        "addr" : "cosmos1rprz62z0vpa6ex0wcwmqkq6ls3cye9wea5lfshpg8fm2ztg28znsy4jzww"
+    }
+]
